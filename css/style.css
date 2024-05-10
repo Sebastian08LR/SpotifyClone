@@ -1,0 +1,394 @@
+@import url(variables.css);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+/* completo grid de 3 columnas */
+body{
+   background-color: black;
+    display:grid;
+    grid-template-columns: 1fr 1.8fr 1fr;
+    color: var(--color3);
+    font-family: "Mukta", sans-serif;
+    height: 100vh;
+    overflow-y: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del "thumb" (barra de desplazamiento) */
+    border-radius: 5px; /* Radio de borde del "thumb" */
+}
+
+/* Firefox */
+/* Este selector es necesario para Firefox para aplicar estilos al scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+/* Estilos para el scrollbar en Firefox */
+/* El color de fondo del scrollbar */
+*::-moz-scrollbar {
+    width: 10px;
+}
+
+/* El "thumb" (barra de desplazamiento) */
+*::-moz-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    gap: 0.7rem;
+    padding: 0.5rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.discover{
+    background-color: var(--color2);
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 1rem;
+    height: 23svh;
+}
+.discover h1{
+    font-size: 3.5svh;
+    color: var(--color3);
+    margin-top: 0.3em;
+}
+.album__search{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.3em;
+    align-items: center;
+}
+.album__search i{
+    font-size: x-large;
+}
+.album__search input[type="text"]{
+    flex: 1; 
+    border: none;
+    background-color:transparent; 
+    color: #fff; 
+    font-size: 18px; 
+    outline: none; 
+}
+.album__search button {
+    padding: 10px 20px;
+    background-color:#242424; 
+    color: #fff; 
+    border: none; 
+    border-radius: 0 50px 50px 0; 
+    cursor: pointer;
+    /* transition: border 0.3s ease; */
+}
+.album__search button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+
+/* seccion de top char */
+.albumTopSection{
+    display: flex;
+    flex-direction: column; 
+    background-color: var(--color2);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: var(--color3);
+    height: 57svh;
+}
+.album__songs img:hover{
+    width: 180px;
+}
+.album__songs :nth-child(3){
+    color: rgba(255, 255, 255, 0.521)
+    
+}
+.album__songs img{
+    width: 150px;
+    transition: width 0.3s ease;
+    border-radius: 1rem;
+}
+.albumTopSectionHeader{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: x-large;
+    justify-content: space-between;
+}
+.albumWeek{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+.albumWeek{
+    display: flex;
+    gap: 1rem;
+}
+.albumGallery{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll; 
+    height: auto;
+    margin-top: 1em;
+  
+}
+.main__frame{
+    display: flex;
+    align-items: center;
+    height: 80svh;
+}
+/* you may like this section  */
+.mayLikeSection{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    background-color: var(--color2);
+    border-radius: 1rem;
+    color: var(--color3);
+    height: 18svh;
+}
+.mayLikeName :nth-child(2){
+    color:rgba(255, 255, 255, 0.479)
+
+}
+.mayLikeTitle{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    
+}
+
+.mayLikeSongs img{
+    width: 70px;
+    border-radius: 1rem;
+  
+}
+.mayLikeSongs{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.3rem;
+    width: 97%;
+    border-radius: 1rem;
+}
+.mayLikeSongs:hover{  
+        background-color: #242424;
+}
+
+.mayLikeGallery{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 13svh;   
+    margin-bottom: 1rem;
+    overflow-y: scroll; 
+
+}
+.album__mayLikeSongs :nth-child(3){
+    margin-left: 3rem;
+}
+
+/* seccion del centro (main)  */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color2);
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    height: 98svh;
+    justify-content: space-between;
+}
+
+.main__heading{
+    display: flex;
+    height: 5svh;
+    align-items: center;
+    font-size: 2.5svh;
+    margin-top: 2svh;
+}
+.album__mainSearch{
+    display: flex;
+    align-items: center;
+    height: 5svh;
+    margin-bottom: 1.2svh;
+}
+.album__mainSearch i{
+    font-size: x-large;
+}
+.album__mainSearch input[type="text"]{
+    flex: 1; /* El campo de entrada ocupará el espacio disponible */
+    border: none;
+    /* Sin borde */
+    background-color:transparent; /* Fondo transparente */
+    color: #fff; /* Color de texto */
+    font-size: 18px; /* Tamaño de fuente */
+    outline: none; /* Sin contorno al enfocar */
+}
+.album__mainSearch button {
+    padding: 10px 20px;
+    background-color:#242424; /* Color de fondo del botón */
+    color: #fff; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 0 50px 50px 0; /* Bordes redondeados a la derecha */
+    cursor: pointer;
+}
+.album__mainSearch button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+/* parte derecha track  */
+.track{
+    display: flex;
+    flex-direction: column; 
+    margin: 0.5rem;
+    padding: 0.5rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    height: 98svh;
+    background-color: var(--color2);
+}
+/* titulo de track con el buscador y el playing next */
+.track__heading{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.track__heading h3{
+    font-size: x-large;
+}
+.track__heading h5{
+    padding-top: 2rem;
+}
+/* seccion de las canciones lista */
+.track__songsName{
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
+.track__playingNext{
+    padding-left: 2rem;
+    font-size: large;
+
+}
+.track__search{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 2rem;
+    width: auto;
+}
+.track__search i{
+    font-size: x-large;
+}
+.track__search input[type="text"]{
+    flex: 1; /* El campo de entrada ocupará el espacio disponible */
+    border: none;
+    /* Sin borde */
+    background-color:transparent; /* Fondo transparente */
+    color: #fff; /* Color de texto */
+    font-size: 18px; /* Tamaño de fuente */
+    outline: none; /* Sin contorno al enfocar */
+}
+.track__search button {
+    padding: 10px 20px;
+    background-color:#242424; /* Color de fondo del botón */
+    color: #fff; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 0 50px 50px 0; /* Bordes redondeados a la derecha */
+    cursor: pointer;
+}
+.track__search button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+
+.track__songs{
+    display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 75vh;
+    gap: 1rem;
+     padding-left: 2rem;
+  
+}
+.track__description{
+    display: flex;
+    
+    
+
+    
+   
+}
+
+.track__description :nth-child(2){
+    color:rgba(255, 255, 255, 0.479)
+
+}
+
+.track__time{
+    display: flex;
+    flex-direction: column;
+   margin-left: 3rem;
+   margin-right: 2em;
+
+  
+
+}
+.track__hora{
+    font-size: small;
+}
+.track__año{
+    align-self: center;
+    font-size: smaller;
+}
+.track__songsName{
+   
+    border-radius: 1rem;
+    transition: padding 0.3s ease;
+    width: 98%;
+}
+.track__songsName:hover{
+    background-color: #242424;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.track__songsName img{
+    width: 68px;
+    border-radius: 0.8rem;
+ 
+}
+img:hover{
+    cursor: pointer;
+   
+
+}

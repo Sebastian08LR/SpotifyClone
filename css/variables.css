@@ -1,0 +1,11 @@
+:root{
+    --color1: rgba(0, 0, 0, 0);
+    --color2: #121212;
+    --color3: rgb(255, 255, 255);
+    --color4:  #242424;
+
+} 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Lato", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: "Mukta", sans-serif; */
