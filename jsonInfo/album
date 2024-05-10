@@ -1,0 +1,2752 @@
+{
+  "albums": {
+    "totalCount": 899,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:album:2zE9RJSh5sMV0NJ8Oc8k5s",
+          "name": "Sol María",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5XJDexmWFLWOkjOEjOVX3e",
+                "profile": {
+                  "name": "Eladio Carrion"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02ec105eaf625391e95540ba97",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851ec105eaf625391e95540ba97",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273ec105eaf625391e95540ba97",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:1NhM0o7nSwQNF6DMvnITr5",
+          "name": "SOL MARIA - Eladio",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4MZlthjcYdvUViGskwXkfu",
+                "profile": {
+                  "name": "Good Vibes Club"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02fa704d8af2a3210caf6b0ed8",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851fa704d8af2a3210caf6b0ed8",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273fa704d8af2a3210caf6b0ed8",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2023
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:1u8SkKZIx6C7EAoBM3skEW",
+          "name": "Still Waters Run Deep",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:0sr00YxbHKRAruzYrJ6PEg",
+                "profile": {
+                  "name": "Juan María Solare"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02cd96ebe3a41e2d5bf2707256",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851cd96ebe3a41e2d5bf2707256",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273cd96ebe3a41e2d5bf2707256",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:7exWNleqtgvGlqFz34Ra1R",
+          "name": "Nada Nada",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:3lhTUYtRWfoqod7U1L10kn",
+                "profile": {
+                  "name": "Hipergéminis"
+                }
+              },
+              {
+                "uri": "spotify:artist:1FxMAPKKLTQuK0hYvLNWfD",
+                "profile": {
+                  "name": "Sol Marianela"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02d40236f2f4a6e8019f16fa6b",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851d40236f2f4a6e8019f16fa6b",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273d40236f2f4a6e8019f16fa6b",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3DPHfQPBY0TUj4W4y4ACNl",
+          "name": "Te Prendo de Jeito",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5L5p0R1nFjwf4FIlcNzooj",
+                "profile": {
+                  "name": "Maria Sol"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e025fb7a1469133c054dae5bee3",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048515fb7a1469133c054dae5bee3",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2735fb7a1469133c054dae5bee3",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:6XnD2rXUYPmbHa8xslYsMq",
+          "name": "SOL",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1WAGre0baNiJXIRT5JSMn9",
+                "profile": {
+                  "name": "Machico"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02c07e2e2c5f488e7299b9f73a",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851c07e2e2c5f488e7299b9f73a",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273c07e2e2c5f488e7299b9f73a",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2017
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:30f3niTMI7njBrRvlDgPEd",
+          "name": "Karajan A-Z: Richard Strauss",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6pAwHPeExeUbMd5w7Iny6D",
+                "profile": {
+                  "name": "Richard Strauss"
+                }
+              },
+              {
+                "uri": "spotify:artist:5zCaQxjl110XTrm4LQ1CxY",
+                "profile": {
+                  "name": "Herbert von Karajan"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02c5be72e82b0bc04a341bad38",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851c5be72e82b0bc04a341bad38",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273c5be72e82b0bc04a341bad38",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:6uoIIkGVHnqlgsr8qjRfdk",
+          "name": "Romances Eternos",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:0MnQvecFg1VbNkiFcPnsaG",
+                "profile": {
+                  "name": "Mariachi Sol De Mexico De Jose Hernandez"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02f013bb242f56ea6e421aa0f3",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851f013bb242f56ea6e421aa0f3",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273f013bb242f56ea6e421aa0f3",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:7wF404n0j6bqteXv57YMsF",
+          "name": "Going (Remastered 2015)",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:3gacryguGmpmCvgPGt2CBI",
+                "profile": {
+                  "name": "New York Philharmonic"
+                }
+              },
+              {
+                "uri": "spotify:artist:5zCaQxjl110XTrm4LQ1CxY",
+                "profile": {
+                  "name": "Herbert von Karajan"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02798c3319559cbe1a5266731f",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851798c3319559cbe1a5266731f",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273798c3319559cbe1a5266731f",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3aoj6ws1N6ePqf9H4uG4OS",
+          "name": "Mariachi Sol: Viva Mexico",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:07CAFCz1O4aIpqgXZjdQHC",
+                "profile": {
+                  "name": "Mariachi Sol"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02ecabc4c9ebb395f120eacfa9",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851ecabc4c9ebb395f120eacfa9",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273ecabc4c9ebb395f120eacfa9",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2012
+          }
+        }
+      }
+    ]
+  },
+  "artists": {
+    "totalCount": 265,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:artist:1FxMAPKKLTQuK0hYvLNWfD",
+          "profile": {
+            "name": "Sol Marianela"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5ebaab543e65fb872622356cae0",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f178aab543e65fb872622356cae0",
+                  "width": 160,
+                  "height": 160
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616100005174aab543e65fb872622356cae0",
+                  "width": 320,
+                  "height": 320
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:0MnQvecFg1VbNkiFcPnsaG",
+          "profile": {
+            "name": "Mariachi Sol De Mexico De Jose Hernandez"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb3666634b1348c63f3f8eba82",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1783666634b1348c63f3f8eba82",
+                  "width": 160,
+                  "height": 160
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab676161000051743666634b1348c63f3f8eba82",
+                  "width": 320,
+                  "height": 320
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:1WOC51A3fmT0ONyhUtH1G8",
+          "profile": {
+            "name": "Sol Reya"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2739ffa59781d8ff5a822772505",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048519ffa59781d8ff5a822772505",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e029ffa59781d8ff5a822772505",
+                  "width": 300,
+                  "height": 300
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:0sr00YxbHKRAruzYrJ6PEg",
+          "profile": {
+            "name": "Juan María Solare"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb9d699c690770628b09bf1a78",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1789d699c690770628b09bf1a78",
+                  "width": 160,
+                  "height": 160
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab676161000051749d699c690770628b09bf1a78",
+                  "width": 320,
+                  "height": 320
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:5mYS4mPFCpxvQwGU8rT43a",
+          "profile": {
+            "name": "Sol"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb2bb0ddf501e6170ed70da2e1",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1782bb0ddf501e6170ed70da2e1",
+                  "width": 160,
+                  "height": 160
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab676161000051742bb0ddf501e6170ed70da2e1",
+                  "width": 320,
+                  "height": 320
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:6TWAmC8OsAPKl8kgNVwAe1",
+          "profile": {
+            "name": "Mariachi Sol De Mexico"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6772690000dd22d195c3d3753c2d1970e5ad1b",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67726900008f74d195c3d3753c2d1970e5ad1b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6772690000bac3d195c3d3753c2d1970e5ad1b",
+                  "width": 200,
+                  "height": 200
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6772690000c46cd195c3d3753c2d1970e5ad1b",
+                  "width": 1000,
+                  "height": 1000
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:07CAFCz1O4aIpqgXZjdQHC",
+          "profile": {
+            "name": "Mariachi Sol"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ecabc4c9ebb395f120eacfa9",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ecabc4c9ebb395f120eacfa9",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ecabc4c9ebb395f120eacfa9",
+                  "width": 300,
+                  "height": 300
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:6iHkaXDkUBYdOstTu1OoCE",
+          "profile": {
+            "name": "Mariachi Sol De Mi Tierra"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5ebdf818ca1bdca079aab180af5",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f178df818ca1bdca079aab180af5",
+                  "width": 160,
+                  "height": 160
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616100005174df818ca1bdca079aab180af5",
+                  "width": 320,
+                  "height": 320
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:4GJGbPTuBJLUQxWDedNzZo",
+          "profile": {
+            "name": "Sol Mayor"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2735e1a82fb6b032ee7a054fc67",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048515e1a82fb6b032ee7a054fc67",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e025e1a82fb6b032ee7a054fc67",
+                  "width": 300,
+                  "height": 300
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:59WDyQYE9AYZbkzQgVHBXh",
+          "profile": {
+            "name": "Mariachi Sol de America"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27380aff76af68eb2b63f8a60a3",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485180aff76af68eb2b63f8a60a3",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0280aff76af68eb2b63f8a60a3",
+                  "width": 300,
+                  "height": 300
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "episodes": {
+    "totalCount": 1000,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:episode:558aKZzTdYLyrRiAKC3Xno",
+          "name": "3x07 Que la soledad no te acompañe",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d3207bb194d128e63444a4985",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f3207bb194d128e63444a4985",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a3207bb194d128e63444a4985",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 1409959
+          },
+          "releaseDate": {
+            "isoString": "2023-06-12T04:00:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d26882695b6b2266a6a59f019",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f26882695b6b2266a6a59f019",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a26882695b6b2266a6a59f019",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "Si te has sentido solo alguna vez, y te “ha dolido” este episodio seguro que te interesa. Nunca hemos estado tan conectados y nunca nos hemos sentido tan solos. La psiquiatra Marian RojasEstapé, nos ayuda a escuchar e identificar esa sensación, entenderla y atenderla correctamente.Aprenderás a comprender cómo sentirse solo de forma mantenida influye, no solo en nuestra salud mental sino también, en el cuerpo. La pandemia fue una prueba para acercarnos a nosotros mismos y aprender a gestionar la soledad. Entender los efectos de soledad, aprender a gestionar la soledad y la incertidumbre es fundamental, y eso es lo que te propone Marian Rojas Estapé en este episodio.Esperamos que lo disfrutes y lo compartas con quien más lo necesite.El Podcast de Marian Rojas Estapé, es un podcast en exclusiva en Spotify. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:50L1QlbY75zPLMx9JaGbIu",
+          "name": "36. TRES HERRAMIENTAS PARA APRENDER A PARAR Y DESCANSAR ",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d5e70bfbd7b784649cb80d101",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f5e70bfbd7b784649cb80d101",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a5e70bfbd7b784649cb80d101",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 1336502
+          },
+          "releaseDate": {
+            "isoString": "2024-04-29T02:13:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d5e70bfbd7b784649cb80d101",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f5e70bfbd7b784649cb80d101",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a5e70bfbd7b784649cb80d101",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "¿Sientes que tu vida es un continuo hacer, hacer y hacer? ¿Te gustaría parar pero no puedes? Si has respondido que afirmativamente, este episodio es para ti.   Hoy comparto contigo tres herramientas que a mí me sirven para gestionar mi tendencia a la actividad constante y alcanzar el equilibrio entre avanzar y descansar.   Tengo una membresía que se llama \"Té con Sol\" en la que, por 14,90€ puedes disfrutar de una mentoría grupal mensual, 4 artículos sumamente prácticos sobre autoconocimiento y desarrollo personal y una reflexión/consejo/ejercicio diario para conseguir implementar el hábito de tenerte en cuenta: tienes toda la información aquí (en cuanto entres a la membresía te encontrarás con un montón de contenido).  Si quieres descargar mi audio en el que comparto contigo dos ejercicios prácticos para retomar las riendas de tu vida, solo tienes que hacer click en este enlace: https://www.lasclavesdesol.com/audiotraining-gratuito/?source=spotify   Si quieres recibir todos los sábados mi Newsletter “Tres Minutos” y estar al tanto de novedades y formaciones, haz click aquí.   Me encuentras en Instagram, soy @lasclavesdesol  Mi web es lasclavesdesol.com",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:5tHB71dpxxZYxtpsFpFoBV",
+          "name": "Solo Episode: Marianna’s 5 Work-In-Progress Daily Habits, Finding Accountability in Routines, and Incorporating Balance",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d144e001556bf61dee8424849",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f144e001556bf61dee8424849",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a144e001556bf61dee8424849",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 1790902
+          },
+          "releaseDate": {
+            "isoString": "2024-04-16T07:00:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d144e001556bf61dee8424849",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f144e001556bf61dee8424849",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a144e001556bf61dee8424849",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "In this solo episode, Marianna gives valuable insight into the five daily habits she’s currently working on, including movement, decluttering, and limiting screen time. She discusses finding a core focus within habits, embracing the time of day you feel your best, and finding a balance so routines do not become too rigid. Marianna gives helpful specifics about her habits and routines, along with recommendations for apps she uses to stay on track with her goals. If you’re looking for effective approaches to make habits sustainable and intentional, this episode is perfect for you.Follow Marianna: @marianna_hewittMentioned in the episode:Chelsey Rose HealthStrength to Build podcastApp BlockOpen breathwork appAtomic Habits bookDone appThis episode is sponsored by:Revolve: Revolve.com/Marianna Malk: use code 15lifewithmh for 15% off at Amazon and also available at Whole Foods Produced by Dear MediaThis episode may contain paid endorsements and advertisements for products and services. Individuals on the show may have a direct, or indirect financial interest in products, or services referred to in this episode.",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:31IcoTnKhTgviM0CYAyCke",
+          "name": "Meditación guiada - Semana 2 - Joe Dispenza - Meditaciones \"Deja de ser Tú\"",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d520340aeed121cde022c996d",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f520340aeed121cde022c996d",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a520340aeed121cde022c996d",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 719865
+          },
+          "releaseDate": {
+            "isoString": "2021-11-28T22:59:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d37fec1f6ee7be84203bc8c13",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f37fec1f6ee7be84203bc8c13",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a37fec1f6ee7be84203bc8c13",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "Meditaciones Joe Dispenza del Libro \"Deja de Ser tú\" #dejadesertu #joedispenza #meditaciones  ---   Send in a voice message: https://podcasters.spotify.com/pod/show/solmurias/message",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:6c4OMJ0y9iTnZ91UWLlW0b",
+          "name": "432 Hz Solfeggio Healing Frequency For Body & Soul - 3 Hrs",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d1bae7be7ae8d605ef4076499",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f1bae7be7ae8d605ef4076499",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a1bae7be7ae8d605ef4076499",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 10701923
+          },
+          "releaseDate": {
+            "isoString": "2023-12-19T11:00:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d07215e5b7e4f5149be1e6155",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f07215e5b7e4f5149be1e6155",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a07215e5b7e4f5149be1e6155",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "Unlocking the Power of 432 Hz Solfeggio Healing Frequency: A Guide to Holistic WellnessAre you ready to tap into the healing power of sound? Imagine a world where stress and anxiety melt away, leaving you feeling calm, centered, and rejuvenated. Sound has been a powerful tool for healing and spiritual growth for centuries. And now, scientific research is finally catching up, revealing the incredible benefits of specific frequencies on our mental, emotional, and physical well-being.At the heart of this guide is the 432 Hz Solfeggio frequency, a magical tone believed to resonate with the very fabric of the universe. By harnessing this frequency, you can align your energy, promote deep relaxation, and restore balance to your body, mind, and spirit.Whether new to sound healing or a seasoned practitioner, this guide will provide the knowledge and practical techniques to incorporate the 432 Hz Solfeggio frequency into your daily life. Get ready to unlock the power of sound and embark on a journey to holistic wellness. The Power of 432 Hz: Benefits and Effects on the BodyThe Solfeggio frequencies are a set of ancient musical tones used in Gregorian chants and other forms of sacred music. These frequencies, also known as the Solfeggio scale, are believed to affect our physical, mental, and spiritual well-being profoundly. Each frequency in the scale corresponds to a specific aspect of our being, such as healing, intuition, and spiritual enlightenment.The Solfeggio scale consists of six main frequencies: 396 Hz, 417 Hz, 528 Hz, 639 Hz, 741 Hz, and 852 Hz. Each frequency is said to have its unique healing properties and benefits. The 432 Hz Solfeggio frequency, in particular, has gained popularity for its ability to promote deep relaxation, increase focus, and enhance creativity. The 432 Hz Solfeggio frequency has been praised for its ability to resonate with the natural vibrations of the universe and the human body. When we are in tune with this frequency, it is believed to promote harmony and balance within us, leading to a wide range of physical and mental benefits.One key benefit of the 432 Hz frequency is its ability to induce deep relaxation. When we listen to tones tuned to 432 Hz, our brainwaves synchronize with the frequency, promoting a state of calm and tranquility. This can be especially beneficial for reducing stress, anxiety, and insomnia.Disclaimer: The binaural beats/solfeggio frequencies provided are not meant to replace or substitute the recommendations or advice of your physician or health care provider. This video should not be used to diagnose or treat a health problem or disease. If you have a medical condition or situation, contact your healthcare provider.",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:1vxqBRv0IjHMLhzLDhqWC3",
+          "name": "Maria e a Virtude da Temperança ",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68def05d117ca38e63176d98278",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fef05d117ca38e63176d98278",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8aef05d117ca38e63176d98278",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 157291
+          },
+          "releaseDate": {
+            "isoString": "2024-05-08T09:00:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68de53c518a0d02691e29f7a934",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fe53c518a0d02691e29f7a934",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ae53c518a0d02691e29f7a934",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:3ZVQJ6RAPIV611vd7TTpZR",
+          "name": "Casino of Solace Part 2 with Amanda Lund and Maria Blasucci",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d41ea14456a789c897894c5dc",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f41ea14456a789c897894c5dc",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a41ea14456a789c897894c5dc",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 5584744
+          },
+          "releaseDate": {
+            "isoString": "2024-04-24T07:00:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d41ea14456a789c897894c5dc",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f41ea14456a789c897894c5dc",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a41ea14456a789c897894c5dc",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "We're back, earlier than expected, with part 2 of our back to back watch of Casino Royale and Quantum of Solace. Hosted on Acast. See acast.com/privacy for more information.",
+          "contentRating": {
+            "label": "EXPLICIT"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:0W0Bzz6NUtX78n385Q3QdZ",
+          "name": "34. UNA PREGUNTA QUE MEJORARÁ TU VIDA",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d5e70bfbd7b784649cb80d101",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f5e70bfbd7b784649cb80d101",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a5e70bfbd7b784649cb80d101",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 1339559
+          },
+          "releaseDate": {
+            "isoString": "2024-04-15T02:11:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d5e70bfbd7b784649cb80d101",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f5e70bfbd7b784649cb80d101",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a5e70bfbd7b784649cb80d101",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "¿Dudas muchas veces sobre qué decisión tomar? ¿Te bloqueas a menudo? ¿Sientes que no pones todos los límites que deberías poner? ¿Te gustaría generar criterios o patrones que te sirvan para todo en la vida? Si has respondido afirmativamente a una, o a varias de estas preguntas, este episodio es para ti.   Sabes que soy muy fan de las preguntas bien hechas, esas que son muchas veces tan incómodas como definitivas. La que hoy te planteo pretende regalarte una nueva perspectiva, esa en la que tú te colocas en el centro de tu historia.  Aquí te dejo la receta del descubrimiento del que te hablo en el episodio: haz click aquí  Aquí tienes el episodio del que hablo sobre 13 hábitos que me sirven para mantener la calma.  Aquí tienes el episodio del que hablo sobre cómo hablarme bien para confiar más en mí.   Aquí puedes acceder a mi Newsletter y al artículo en el que hablo de esos patrones que no cuestionamos y que nos joroban vivas: haz click aquí.  Tengo una membresía que se llama \"Té con Sol\" en la que, por 14,90€ puedes disfrutar de una mentoría grupal mensual, 4 artículos sumamente prácticos sobre autoconocimiento y desarrollo personal y una reflexión/consejo/ejercicio diario para conseguir implementar el hábito de tenerte en cuenta: tienes toda la información aquí (en cuanto entres a la membresía te encontrarás con un montón de contenido).  Hoy, 15 de abril, empieza la oferta por el día del libro hasta la noche del 23 de abril: tienes el audiolibro de \"Apréndete\" con 50% de descuento y el resto de mis libros, los que son de papel, sin gastos de envío: aquí los tienes todos.  Me encuentras en Instagram, soy @Sol Aguirre   Mi web es lasclavesdesol.com",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:07L4zuTCvOGIxDcrGiuNrL",
+          "name": "Casino of Solace Part 1 with Amanda Lund and Maria Blasucci",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d41ea14456a789c897894c5dc",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f41ea14456a789c897894c5dc",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a41ea14456a789c897894c5dc",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 5007960
+          },
+          "releaseDate": {
+            "isoString": "2024-04-17T07:00:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d41ea14456a789c897894c5dc",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f41ea14456a789c897894c5dc",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a41ea14456a789c897894c5dc",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "Maria and Amanda are back! And this time it's to tackle Casino Royale and Quantum of Solace the way they were meant to be tackled, back to back and with Matt and Matt. Tune in for part two next week. Hosted on Acast. See acast.com/privacy for more information.",
+          "contentRating": {
+            "label": "EXPLICIT"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:15w2XsUxe7XeeCs2wHLmX2",
+          "name": "Meditación guiada - Semana 3 - Joe Dispenza - Meditaciones \"Deja de ser tú\"",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68dc849aed67afe6790c009f504",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fc849aed67afe6790c009f504",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8ac849aed67afe6790c009f504",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 491078
+          },
+          "releaseDate": {
+            "isoString": "2021-11-28T23:00:00Z"
+          },
+          "podcast": {
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d37fec1f6ee7be84203bc8c13",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f37fec1f6ee7be84203bc8c13",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a37fec1f6ee7be84203bc8c13",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            }
+          },
+          "description": "Meditaciones Joe Dispenza del Libro \"Deja de Ser tú\" #dejadesertu #joedispenza #meditaciones  ---   Send in a voice message: https://podcasters.spotify.com/pod/show/solmurias/message",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      }
+    ]
+  },
+  "genres": {
+    "totalCount": 0,
+    "items": []
+  },
+  "playlists": {
+    "totalCount": 1000,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:playlist:7e2uRWOwKKsDzsiKDxTmsx",
+          "name": "Sol María TOUR 🌸",
+          "description": "Setlist Sol María Tour Eladio Carrión ",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i2o.scdn.co/image/ab67706c0000cfa31232273b8ade2afae2791c04",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "lujipe.7"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:0hMcGmmiGijQldDwNO2xLL",
+          "name": "tracklist sol maria tour ",
+          "description": "setilist filtrado por el equipo de eladio del tour sol maria de eladio carrion en este 2024, ig: @matias.aaaa_",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i2o.scdn.co/image/ab67706c0000cfa3d796701607209ebc6893a941",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Dammn"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:1L7a8Fyo8vGVnd9ND9AyB1",
+          "name": "Sol María Tour 🌸🍁",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8468bc558bfc6c0f7acaf38166",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "⚡️⚡️"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:1LzqYU9Q4XxiYRjRnaRzrP",
+          "name": "Sol María - Eladio Carrión",
+          "description": "<a href=\"https://www.instagram.com/escadasounds/?hl=en\">IG: escadasounds</a> | Sol María | Eladio Carrión | Sol María Eladio Carrión | Sol María | Eladio Carrión |",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84076ba46d4071429ed66d6840",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "escadasounds"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:3LXiSdfOLZIoD0bIQDaVDI",
+          "name": "SOL MARÍA TOUR SETLIST",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845b854add18fc3fcfe67cdeb7",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Rafa Franco"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:4KLn2LLLlMCzby2k3ESpAY",
+          "name": "Sol María en el Choliseo 🌸",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fb8ea8152afbf1cd12958698",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Thonyy ⚽️"
+          }
+        }
+      },
+      {
+        "data": []
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:0vqGyYRf8J7sS9jb4qVJ4W",
+          "name": "tracklist eladio carrion sol maria tour ",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845d6374a3efd759949af20566",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Diego Berron"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:468OFVMxnK0nCmuhalA9hC",
+          "name": "sol maria tour",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://mosaic.scdn.co/640/ab67616d00001e0202b1465a8e6b21d3308c18f4ab67616d00001e02646b5a7a32046d0173a76a6cab67616d00001e02ec105eaf625391e95540ba97ab67616d00001e02fc8563c0dc75d79e73c2dca0",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/300/ab67616d00001e0202b1465a8e6b21d3308c18f4ab67616d00001e02646b5a7a32046d0173a76a6cab67616d00001e02ec105eaf625391e95540ba97ab67616d00001e02fc8563c0dc75d79e73c2dca0",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/60/ab67616d00001e0202b1465a8e6b21d3308c18f4ab67616d00001e02646b5a7a32046d0173a76a6cab67616d00001e02ec105eaf625391e95540ba97ab67616d00001e02fc8563c0dc75d79e73c2dca0",
+                    "width": 60,
+                    "height": 60
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "El champi"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:4Dzm2101q3IcoOCujRPQk8",
+          "name": "setlist sol maría tour 2024 🌸",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b01c4ac3b81140c651036320",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Morales"
+          }
+        }
+      }
+    ]
+  },
+  "podcasts": {
+    "totalCount": 1000,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:show:0rY8vkA8ehBX7qBr5RrVgp",
+          "name": "A solas... con Vicky Martín Berrocal",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d8773b373b72b6bdcae657ce6",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f8773b373b72b6bdcae657ce6",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a8773b373b72b6bdcae657ce6",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Podium Podcast"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:5C7taQYPzBfAwZYAnBAInD",
+          "name": "Sol Brah's Solcast",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68da25a68e4ba9c503b25d70fcf",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fa25a68e4ba9c503b25d70fcf",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8aa25a68e4ba9c503b25d70fcf",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Sol Brah"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:6Prdg7S7vRSWxgqgp9EN4y",
+          "name": "Saint Faustina’s Diary in a Year",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68dcff5086ff3cd3591df76264b",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fcff5086ff3cd3591df76264b",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8acff5086ff3cd3591df76264b",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Marian Press"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:61LVYESUdRSrAhy3Ktnfqn",
+          "name": "Sol Mariana",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68deef2c0fa871a769aa252124b",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1feef2c0fa871a769aa252124b",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8aeef2c0fa871a769aa252124b",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Matt"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:3mZPvSCepVV4BabwePx6Dl",
+          "name": "Dra. Mariana Solórzano \"Soy fan de la salud\"",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d0cd137853c7b38db8762a642",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f0cd137853c7b38db8762a642",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a0cd137853c7b38db8762a642",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Dra. Mariana Solórzano"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:5iw6CITAp6tidOVYOl9SqP",
+          "name": "Soy Mariana Soy Energía ",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d0f1009640a4361dfc455fb44",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f0f1009640a4361dfc455fb44",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a0f1009640a4361dfc455fb44",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Soy Energía"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:6C1Q7ITJKvZVosOdC9M1RM",
+          "name": "You Can Heal Your Life ™",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d5bdd5508e283b9cbd6b9a5cb",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f5bdd5508e283b9cbd6b9a5cb",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a5bdd5508e283b9cbd6b9a5cb",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Hay House"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:7Lv0cEJfwBuV3B0w6GIgbd",
+          "name": "Mí Pureza del Cuerpo",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d66da892fe7745bba9f9310d1",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f66da892fe7745bba9f9310d1",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a66da892fe7745bba9f9310d1",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Sol 🌞, Pureza Del Cuerpo"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:7APyiwMMLt1oyKvzAfiTDR",
+          "name": "Devotos de Maria",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d5ea1bdb6d6e00284b986b373",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f5ea1bdb6d6e00284b986b373",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a5ea1bdb6d6e00284b986b373",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Devotos de Maria"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:1CXLg8ID6ltZqu1CWmG66y",
+          "name": "Ilê Sol de Maria",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d8ea99309f4750d0f71e9f799",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f8ea99309f4750d0f71e9f799",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a8ea99309f4750d0f71e9f799",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Ilê Sol de Maria"
+          },
+          "mediaType": "AUDIO"
+        }
+      }
+    ]
+  },
+  "topResults": {
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:track:6pZHZndlo57dPCYnvlYFOE",
+          "id": "6pZHZndlo57dPCYnvlYFOE",
+          "name": "RLNDT",
+          "albumOfTrack": {
+            "uri": "spotify:album:7CjJb2mikwAWA1V6kewFBF",
+            "name": "X 100PRE",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02519266cd05491a5b5bc22d1e",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851519266cd05491a5b5bc22d1e",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273519266cd05491a5b5bc22d1e",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "7CjJb2mikwAWA1V6kewFBF",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/7CjJb2mikwAWA1V6kewFBF?si=abjiXae1Q4qIj9juH8_1GA"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+                "profile": {
+                  "name": "Bad Bunny"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "EXPLICIT"
+          },
+          "duration": {
+            "totalMilliseconds": 284852
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:2RJ1fg4qf2vgZKifTa4HgA",
+          "id": "2RJ1fg4qf2vgZKifTa4HgA",
+          "name": "Sólo Quédate En Silencio",
+          "albumOfTrack": {
+            "uri": "spotify:album:5wvatwGTc0zWIx3dBQadaj",
+            "name": "Rebelde",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e026784cf9227f41a10b0146021",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048516784cf9227f41a10b0146021",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2736784cf9227f41a10b0146021",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "5wvatwGTc0zWIx3dBQadaj",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/5wvatwGTc0zWIx3dBQadaj?si=BZ1oZWAyQZm2rMqVVqGQJw"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:7cjh6y0V9SsyCrWSXTzwOs",
+                "profile": {
+                  "name": "RBD"
+                }
+              },
+              {
+                "uri": "spotify:artist:0TeVa4xdLB8vdzjsvKH6Ri",
+                "profile": {
+                  "name": "Anahí"
+                }
+              },
+              {
+                "uri": "spotify:artist:6kaefrHSdAvxhhCVDFTCEL",
+                "profile": {
+                  "name": "Dulce María"
+                }
+              },
+              {
+                "uri": "spotify:artist:6ModsWtBph2rE6zCTVxvZt",
+                "profile": {
+                  "name": "Maite Perroni"
+                }
+              },
+              {
+                "uri": "spotify:artist:0aMqt2uGLuHj4eI8oXgVzN",
+                "profile": {
+                  "name": "Christian Chávez"
+                }
+              },
+              {
+                "uri": "spotify:artist:5O8cudluftNZ6PCwRzvYxo",
+                "profile": {
+                  "name": "Christopher von Uckermann"
+                }
+              },
+              {
+                "uri": "spotify:artist:0veZkZPeWoJQ9gt6VAXlkN",
+                "profile": {
+                  "name": "Alfonso Herrera"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 219520
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:1f70ywNtUyw4VgckqXeuOv",
+          "id": "1f70ywNtUyw4VgckqXeuOv",
+          "name": "Luchas Mentales",
+          "albumOfTrack": {
+            "uri": "spotify:album:2zE9RJSh5sMV0NJ8Oc8k5s",
+            "name": "Sol María",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ec105eaf625391e95540ba97",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ec105eaf625391e95540ba97",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ec105eaf625391e95540ba97",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "2zE9RJSh5sMV0NJ8Oc8k5s",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/2zE9RJSh5sMV0NJ8Oc8k5s?si=z9Plu3SnRR2_jMWQKZrQUw"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5XJDexmWFLWOkjOEjOVX3e",
+                "profile": {
+                  "name": "Eladio Carrion"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 166835
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:1FxMAPKKLTQuK0hYvLNWfD",
+          "profile": {
+            "name": "Sol Marianela"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5ebaab543e65fb872622356cae0",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f178aab543e65fb872622356cae0",
+                  "width": 160,
+                  "height": 160
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616100005174aab543e65fb872622356cae0",
+                  "width": 320,
+                  "height": 320
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:7e2uRWOwKKsDzsiKDxTmsx",
+          "name": "Sol María TOUR 🌸",
+          "description": "Setlist Sol María Tour Eladio Carrión ",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i2o.scdn.co/image/ab67706c0000cfa31232273b8ade2afae2791c04",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "lujipe.7"
+          }
+        }
+      }
+    ],
+    "featured": []
+  },
+  "tracks": {
+    "totalCount": 814,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:track:6pZHZndlo57dPCYnvlYFOE",
+          "id": "6pZHZndlo57dPCYnvlYFOE",
+          "name": "RLNDT",
+          "albumOfTrack": {
+            "uri": "spotify:album:7CjJb2mikwAWA1V6kewFBF",
+            "name": "X 100PRE",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02519266cd05491a5b5bc22d1e",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851519266cd05491a5b5bc22d1e",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273519266cd05491a5b5bc22d1e",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "7CjJb2mikwAWA1V6kewFBF",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/7CjJb2mikwAWA1V6kewFBF?si=XgiJ-nRbS7yc9VsyG-H7Mw"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+                "profile": {
+                  "name": "Bad Bunny"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "EXPLICIT"
+          },
+          "duration": {
+            "totalMilliseconds": 284852
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:2RJ1fg4qf2vgZKifTa4HgA",
+          "id": "2RJ1fg4qf2vgZKifTa4HgA",
+          "name": "Sólo Quédate En Silencio",
+          "albumOfTrack": {
+            "uri": "spotify:album:5wvatwGTc0zWIx3dBQadaj",
+            "name": "Rebelde",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e026784cf9227f41a10b0146021",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048516784cf9227f41a10b0146021",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2736784cf9227f41a10b0146021",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "5wvatwGTc0zWIx3dBQadaj",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/5wvatwGTc0zWIx3dBQadaj?si=XPkUNq3vRk2qhW9sntElEg"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:7cjh6y0V9SsyCrWSXTzwOs",
+                "profile": {
+                  "name": "RBD"
+                }
+              },
+              {
+                "uri": "spotify:artist:0TeVa4xdLB8vdzjsvKH6Ri",
+                "profile": {
+                  "name": "Anahí"
+                }
+              },
+              {
+                "uri": "spotify:artist:6kaefrHSdAvxhhCVDFTCEL",
+                "profile": {
+                  "name": "Dulce María"
+                }
+              },
+              {
+                "uri": "spotify:artist:6ModsWtBph2rE6zCTVxvZt",
+                "profile": {
+                  "name": "Maite Perroni"
+                }
+              },
+              {
+                "uri": "spotify:artist:0aMqt2uGLuHj4eI8oXgVzN",
+                "profile": {
+                  "name": "Christian Chávez"
+                }
+              },
+              {
+                "uri": "spotify:artist:5O8cudluftNZ6PCwRzvYxo",
+                "profile": {
+                  "name": "Christopher von Uckermann"
+                }
+              },
+              {
+                "uri": "spotify:artist:0veZkZPeWoJQ9gt6VAXlkN",
+                "profile": {
+                  "name": "Alfonso Herrera"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 219520
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:1f70ywNtUyw4VgckqXeuOv",
+          "id": "1f70ywNtUyw4VgckqXeuOv",
+          "name": "Luchas Mentales",
+          "albumOfTrack": {
+            "uri": "spotify:album:2zE9RJSh5sMV0NJ8Oc8k5s",
+            "name": "Sol María",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ec105eaf625391e95540ba97",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ec105eaf625391e95540ba97",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ec105eaf625391e95540ba97",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "2zE9RJSh5sMV0NJ8Oc8k5s",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/2zE9RJSh5sMV0NJ8Oc8k5s?si=bmxf5BG_Rh2KZfLSZKa1aw"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5XJDexmWFLWOkjOEjOVX3e",
+                "profile": {
+                  "name": "Eladio Carrion"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 166835
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:1KmLlTb8Ic1yP5ICqC5xfd",
+          "id": "1KmLlTb8Ic1yP5ICqC5xfd",
+          "name": "A Solas",
+          "albumOfTrack": {
+            "uri": "spotify:album:4nUKyiRK7yKKrR9JslEWzR",
+            "name": "Animal Pt. 1",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e029731d3cbee605a6a13646d96",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048519731d3cbee605a6a13646d96",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2739731d3cbee605a6a13646d96",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "4nUKyiRK7yKKrR9JslEWzR",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/4nUKyiRK7yKKrR9JslEWzR?si=Nnc3wRK-SwGtIcS3uxEOBQ"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1DxLCyH42yaHKGK3cl5bvG",
+                "profile": {
+                  "name": "Maria Becerra"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 216000
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:5OWsurVuhZut5nBsbUDTLM",
+          "id": "5OWsurVuhZut5nBsbUDTLM",
+          "name": "SOL MARIA - Eladio",
+          "albumOfTrack": {
+            "uri": "spotify:album:1NhM0o7nSwQNF6DMvnITr5",
+            "name": "SOL MARIA - Eladio",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02fa704d8af2a3210caf6b0ed8",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851fa704d8af2a3210caf6b0ed8",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273fa704d8af2a3210caf6b0ed8",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "1NhM0o7nSwQNF6DMvnITr5",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/1NhM0o7nSwQNF6DMvnITr5?si=BKkK-X0mRMOjjJl0kjI-IA"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4MZlthjcYdvUViGskwXkfu",
+                "profile": {
+                  "name": "Good Vibes Club"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 140571
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:7EXIxvMCdhUYiraGbJf50C",
+          "id": "7EXIxvMCdhUYiraGbJf50C",
+          "name": "Sor María",
+          "albumOfTrack": {
+            "uri": "spotify:album:1sqgDb8MhdXgKAdGGLny9g",
+            "name": "Drama Y Luz",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02507bcad8411e6b5ca6add50c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851507bcad8411e6b5ca6add50c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273507bcad8411e6b5ca6add50c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "1sqgDb8MhdXgKAdGGLny9g",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/1sqgDb8MhdXgKAdGGLny9g?si=HWO7jRHARraFNSgAMlMAJg"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:7okwEbXzyT2VffBmyQBWLz",
+                "profile": {
+                  "name": "Maná"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 303466
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:7iySYm4OYpamlQbv1CcoXj",
+          "id": "7iySYm4OYpamlQbv1CcoXj",
+          "name": "Sol",
+          "albumOfTrack": {
+            "uri": "spotify:album:16QpKi6zRqxJxKVGjf3gOH",
+            "name": "Sol",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e026418d5e3404ab46b1ff8ea35",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048516418d5e3404ab46b1ff8ea35",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2736418d5e3404ab46b1ff8ea35",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "16QpKi6zRqxJxKVGjf3gOH",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/16QpKi6zRqxJxKVGjf3gOH?si=hTg3Ho4oQt2OXjmXp2zb7w"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4lz66um9dJ0YB7ugJHeoZe",
+                "profile": {
+                  "name": "Maitre"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 125596
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:0ubiRx75C5QEptufuhuQ9F",
+          "id": "0ubiRx75C5QEptufuhuQ9F",
+          "name": "A Solas",
+          "albumOfTrack": {
+            "uri": "spotify:album:2OXeXtTp8KR8TO21LbBIWP",
+            "name": "Animal",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e021c8755a712cc2635d4e4c82b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048511c8755a712cc2635d4e4c82b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2731c8755a712cc2635d4e4c82b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "2OXeXtTp8KR8TO21LbBIWP",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/2OXeXtTp8KR8TO21LbBIWP?si=N8RjVKcQTOiaoTDX6TMbpg"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1DxLCyH42yaHKGK3cl5bvG",
+                "profile": {
+                  "name": "Maria Becerra"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 216000
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:3pJlTmnEjkf1u9Bualfo8X",
+          "id": "3pJlTmnEjkf1u9Bualfo8X",
+          "name": "Sol, arena y mar",
+          "albumOfTrack": {
+            "uri": "spotify:album:59hPa94rgOLoOBKHz98i7n",
+            "name": "Amarte Es Un Placer",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e021b25e96513de862a69d1c54c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048511b25e96513de862a69d1c54c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2731b25e96513de862a69d1c54c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "59hPa94rgOLoOBKHz98i7n",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/59hPa94rgOLoOBKHz98i7n?si=o4iF6oLCRGSG3S-9Pbx2NA"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:2nszmSgqreHSdJA3zWPyrW",
+                "profile": {
+                  "name": "Luis Miguel"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 197933
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:2tAR3oInw1b5YKke1ULw92",
+          "id": "2tAR3oInw1b5YKke1ULw92",
+          "name": "Sor María - 2020 Remasterizado",
+          "albumOfTrack": {
+            "uri": "spotify:album:6S9XDiLlrQLGYpxmalrcuN",
+            "name": "Drama Y Luz (2020 Remasterizado)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02c7ab8c89b1a9b5fd16b1cf08",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851c7ab8c89b1a9b5fd16b1cf08",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273c7ab8c89b1a9b5fd16b1cf08",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "6S9XDiLlrQLGYpxmalrcuN",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/6S9XDiLlrQLGYpxmalrcuN?si=HoYSlWk1S2uSpR8gOW2YQg"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:7okwEbXzyT2VffBmyQBWLz",
+                "profile": {
+                  "name": "Maná"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 303506
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      }
+    ]
+  },
+  "users": {
+    "totalCount": 1000,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:user:11157331196",
+          "id": "11157331196",
+          "displayName": "Sol Marianela",
+          "username": "11157331196",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b823e8f46f92249206974d16001",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee853e8f46f92249206974d16001"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:12128010805",
+          "id": "12128010805",
+          "displayName": "Sol Mariaca De Mesa",
+          "username": "12128010805",
+          "image": {
+            "smallImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/275081220_10219573748364167_1000289056970605263_n.jpg?stp=c0.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xlnM8aIivNkQ7kNvgFsbRbP&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYA_8QWmsrxb2y28SpXgThQEZUytAes2qUJACOG9V9i-2Q&oe=66436CFD",
+            "largeImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/275081220_10219573748364167_1000289056970605263_n.jpg?stp=c0.0.320.320a_dst-jpg_p320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xlnM8aIivNkQ7kNvgFsbRbP&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYBiivuahortXCjFWyX31H0quERl5C3Orzm1Rn6nXcXPsA&oe=66436CFD"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:maariasol1",
+          "id": "maariasol1",
+          "displayName": "Maria Sol",
+          "username": "maariasol1",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82094f58ea3c5bb7f36c607037",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85094f58ea3c5bb7f36c607037"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:21wc5ofwojwichkrkz2spfetq",
+          "id": "21wc5ofwojwichkrkz2spfetq",
+          "displayName": "Marian Soler",
+          "username": "21wc5ofwojwichkrkz2spfetq",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82d788b1b7de83c2e5fc679622",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85d788b1b7de83c2e5fc679622"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:11100047159",
+          "id": "11100047159",
+          "displayName": "Maria Sol",
+          "username": "11100047159",
+          "image": {
+            "smallImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-1/13691035_10154142955245033_2519911925526099412_o.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ckFqy3QXXB4Q7kNvgG2tSH3&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AYD4yHVU8YDwwlNi76jATjF6Cc_C6sHhyDT11d7AQ11eCw&oe=666533FA",
+            "largeImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-1/13691035_10154142955245033_2519911925526099412_o.jpg?stp=dst-jpg_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ckFqy3QXXB4Q7kNvgG2tSH3&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AYAYoKddz4tdp50C7zJe50nml7QVqWvDF0WHFh5VmEH5zQ&oe=666533FA"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:11143710890",
+          "id": "11143710890",
+          "displayName": "Maria Sol",
+          "username": "11143710890",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b826ba7e4274fc6076618210fa0",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee856ba7e4274fc6076618210fa0"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:amapolalola",
+          "id": "amapolalola",
+          "displayName": "Maria Sola",
+          "username": "amapolalola",
+          "image": {
+            "smallImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-1/23116863_1589643894449463_2706116069282859160_o.jpg?stp=c8.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=y0RTORZs9QwQ7kNvgE7K2hv&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AYCVtp78oeS5VrTeGvjkSsE4psUrN24Vgo8_KVPKTVRwoA&oe=66655DA0",
+            "largeImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-1/23116863_1589643894449463_2706116069282859160_o.jpg?stp=c53.0.320.320a_dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=y0RTORZs9QwQ7kNvgE7K2hv&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AYApd_MKnHp4tOimOYu0qsHZ7c2cZWeaiosGT_CMu2QZfQ&oe=66655DA0"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:1179615622",
+          "id": "1179615622",
+          "displayName": "Maria Sole",
+          "username": "1179615622",
+          "image": {
+            "smallImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/241628627_10227490433669257_8648333939794909203_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=55Ozs-AvyXwQ7kNvgFPk_5u&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AYC1MCTsLcTpp8Pg9J0GzIftaX_I13eFiothULbW8zYiDA&oe=66434D3A",
+            "largeImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/241628627_10227490433669257_8648333939794909203_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=55Ozs-AvyXwQ7kNvgFPk_5u&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AYD-v_fwZYGJj_Spoh_g6KGmt7Toa9E_wVWV2LtrYDteDQ&oe=66434D3A"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:222ib3oukrgp5yirpn7na6raq",
+          "id": "222ib3oukrgp5yirpn7na6raq",
+          "displayName": "Maria Sol",
+          "username": "222ib3oukrgp5yirpn7na6raq",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82049d667bb8509aca33720a41",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85049d667bb8509aca33720a41"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:mariagruntxi",
+          "id": "mariagruntxi",
+          "displayName": "Maria Solano",
+          "username": "mariagruntxi",
+          "image": {
+            "smallImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/109243318_10223477265867862_7924404549256133476_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=44ZX3dxD1gIQ7kNvgGYEPVJ&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYCqCkPg8yq3yFdvBVvyG9HJRb5wtV-EluminDcW7MuOwA&oe=666532A0",
+            "largeImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/109243318_10223477265867862_7924404549256133476_n.jpg?stp=dst-jpg_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=44ZX3dxD1gIQ7kNvgGYEPVJ&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYAvlzepZe3PGiGTds9HHfcBFmbKRHVG8BLLjUcK5U-jcg&oe=666532A0"
+          }
+        }
+      }
+    ]
+  }
+}
