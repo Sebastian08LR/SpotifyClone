@@ -1,21 +1,35 @@
 
-class myframe extends HTMLElement{
-    id
-    constructor(id){
+class myframe extends HTMLElement {
+    constructor() {
         super();
-        this.attachShadow({mode: "open"});
+        this.attachShadow({ mode: "open" });
     }
-    connectedCallback(){
-        this.shadowRoot.innerHTML = /*html*/`
-        <iframe class="spotify-iframe" width="450" height="670" src="https://open.spotify.com/embed/album/${this.id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        `
+
+    connectedCallback() {
+        this.renderFrame();
     }
-    static get observedAttributes(){
+
+    renderFrame() {
+        const uri = this.getAttribute('uri');
+        if (uri) {
+            // Obtener el ID del álbum de la URI
+            const id = uri.split(':')[2];
+            this.shadowRoot.innerHTML = `
+                <iframe class="spotify-iframe" width="450" height="670" src="https://open.spotify.com/embed/album/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            `;
+        } else {
+            this.shadowRoot.innerHTML = '';
+        }
+    }
+
+    static get observedAttributes() {
         return ["uri"];
     }
-    attributeChangedCallback(name,old,now){
-        let[nameUri, album, id] = now.split(":")
-        this.id = id;
+
+    attributeChangedCallback(name, oldVal, newVal) {
+        if (name === 'uri' && oldVal !== newVal) {
+            this.renderFrame();
+        }
     }
 }
 customElements.define("my-frame",myframe)
@@ -30,12 +44,12 @@ class AlbumGallery extends HTMLElement {
         // Realizar la solicitud fetch a la API
         const url = 'https://spotify23.p.rapidapi.com/search/?q=Sol%20maria&type=multi&offset=0&limit=10&numberOfTopResults=5';
         const options = {
-            method: 'GET',
+        method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '4fadca553amsh359f23bdc84e5cdp1eab1bjsnb7e9266d4996',
+                'X-RapidAPI-Key': '5e5c08d7a5msh0681cf2d0e77a32p1469d8jsn50978c3fbc20',
                 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
-        };
+        };  
         
         try {
             const response = await fetch(url, options);
@@ -50,20 +64,36 @@ class AlbumGallery extends HTMLElement {
                 if (result.albums.items[i].data && result.albums.items[i].data.coverArt && result.albums.items[i].data.coverArt.sources && result.albums.items[i].data.coverArt.sources.length > 0) {
                     // Extraer la primera URL dentro de "sources" del álbum
                     const primeraUrl = result.albums.items[i].data.coverArt.sources[0].url;
-                    // Crear la plantilla HTML con la URL extraída
+                    const uri = result.albums.items[i].data.uri;
+                    // Extraer el ID de la URI
+                    const id = uri.split(':')[2]; // Obtener el tercer elemento después de dividir la URI por ":"
+                    // Crear la plantilla HTML con la URL extraída y el atributo de datos personalizado
                     templates += `
-                        <img id="album__${i + 1}" src="${primeraUrl}" alt="">
+                        <img id="album__${i + 1}" src="${primeraUrl}" alt="" data-id="${id}">
                     `;
                 }
             }
-
+    
             // Insertar las plantillas en la clase "albumGallery" del HTML
             this.innerHTML = templates;
+    
+            // Agregar un event listener para cada imagen
+            this.querySelectorAll('img').forEach(img => {
+                img.addEventListener('click', () => {
+                    // Obtener el valor del atributo de datos 'data-id'
+                    const id = img.dataset.id;
+                    // Obtener el elemento my-frame existente
+                    const myFrame = document.querySelector('.main__frame');
+                    // Actualizar el atributo 'uri' con el nuevo ID
+                    myFrame.setAttribute('uri', `spotify:album:${id}`);
+                });
+            });
         } catch (error) {
             console.error(error);
         }
     }
 }
+
 
 customElements.define('album-gallery', AlbumGallery);
 
@@ -76,12 +106,12 @@ class MayLikeSection extends HTMLElement {
         // Realizar la solicitud fetch a la API
         const url = 'https://spotify23.p.rapidapi.com/search/?q=Sol%20maria&type=multi&offset=0&limit=10&numberOfTopResults=5';
         const options = {
-            method: 'GET',
+        method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '4fadca553amsh359f23bdc84e5cdp1eab1bjsnb7e9266d4996',
+                'X-RapidAPI-Key': '5e5c08d7a5msh0681cf2d0e77a32p1469d8jsn50978c3fbc20',
                 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
-        };
+        }; 
 
         try {
             const response = await fetch(url, options);
