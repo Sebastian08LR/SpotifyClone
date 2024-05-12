@@ -1,14 +1,10 @@
 @import url(variables.css);
 
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
 }
-/* completo grid de 3 columnas */
 body{
    background-color: black;
     display:grid;
@@ -19,28 +15,20 @@ body{
     overflow-y: hidden;
 }
 ::-webkit-scrollbar {
-    width: 10px; /* Ancho del scrollbar */
+    width: 10px; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #888; /* Color del "thumb" (barra de desplazamiento) */
-    border-radius: 5px; /* Radio de borde del "thumb" */
+    background-color: #888;
+    border-radius: 5px; 
 }
-
-/* Firefox */
-/* Este selector es necesario para Firefox para aplicar estilos al scrollbar */
 * {
     scrollbar-width: thin;
     scrollbar-color: #888 transparent;
 }
-
-/* Estilos para el scrollbar en Firefox */
-/* El color de fondo del scrollbar */
 *::-moz-scrollbar {
     width: 10px;
 }
-
-/* El "thumb" (barra de desplazamiento) */
 *::-moz-scrollbar-thumb {
     background-color: #888;
     border-radius: 5px;
@@ -114,14 +102,14 @@ body{
     color: var(--color3);
     height: 57svh;
 }
-.album__songs img:hover{
-    width: 180px;
+.albumGallery img:hover{
+    width: 50%;
 }
-.album__songs :nth-child(3){
+.albumGallery :nth-child(3){
     color: rgba(255, 255, 255, 0.521)
     
 }
-.album__songs img{
+.albumGallery img{
     width: 150px;
     transition: width 0.3s ease;
     border-radius: 1rem;
@@ -140,20 +128,27 @@ body{
     color: rgba(255, 255, 255, 0.479);
 }
 
+
 .albumWeek{
     display: flex;
     gap: 1rem;
 }
 .albumGallery{
     display: flex;
-    justify-content: center;
     gap: 1rem;
-    flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     overflow-y: scroll; 
     height: auto;
     margin-top: 1em;
-  
+    
+}
+
+.albumGallery img {
+    border-radius: 1em;
+    width: 37%; 
+    height: auto; 
+    margin: 0.5em;
 }
 .main__frame{
     display: flex;
@@ -172,19 +167,16 @@ body{
 }
 .mayLikeName :nth-child(2){
     color:rgba(255, 255, 255, 0.479)
-
 }
 .mayLikeTitle{
     display: flex;
     justify-content: flex-start;
     padding-top: 1rem;
-    
 }
 
 .mayLikeSongs img{
     width: 70px;
     border-radius: 1rem;
-  
 }
 .mayLikeSongs{
     display: flex;
@@ -197,7 +189,9 @@ body{
 .mayLikeSongs:hover{  
         background-color: #242424;
 }
-
+.descritionMayLike{
+    overflow: hidden;
+}
 .mayLikeGallery{
     display: flex;
     flex-direction: column;
@@ -205,13 +199,10 @@ body{
     height: 13svh;   
     margin-bottom: 1rem;
     overflow-y: scroll; 
-
 }
 .album__mayLikeSongs :nth-child(3){
     margin-left: 3rem;
 }
-
-/* seccion del centro (main)  */
 
 main{
     display: flex;
@@ -241,20 +232,20 @@ main{
     font-size: x-large;
 }
 .album__mainSearch input[type="text"]{
-    flex: 1; /* El campo de entrada ocupará el espacio disponible */
+    flex: 1; 
     border: none;
-    /* Sin borde */
-    background-color:transparent; /* Fondo transparente */
-    color: #fff; /* Color de texto */
-    font-size: 18px; /* Tamaño de fuente */
-    outline: none; /* Sin contorno al enfocar */
+    background-color:transparent; 
+    color: #fff; 
+    font-size: 18px; 
+    outline: none;
+    margin-left: 0.5em;
 }
 .album__mainSearch button {
     padding: 10px 20px;
-    background-color:#242424; /* Color de fondo del botón */
-    color: #fff; /* Color de texto */
-    border: none; /* Sin borde */
-    border-radius: 0 50px 50px 0; /* Bordes redondeados a la derecha */
+    background-color:#242424; 
+    color: #fff; 
+    border: none; 
+    border-radius: 0 50px 50px 0; 
     cursor: pointer;
 }
 .album__mainSearch button:hover {
@@ -262,8 +253,6 @@ main{
     color: black;
     transition: 0.5s;
 }
-
-/* parte derecha track  */
 .track{
     display: flex;
     flex-direction: column; 
@@ -274,7 +263,6 @@ main{
     height: 98svh;
     background-color: var(--color2);
 }
-/* titulo de track con el buscador y el playing next */
 .track__heading{
     padding-top: 2rem;
     padding-left: 2rem;
@@ -285,7 +273,7 @@ main{
 .track__heading h5{
     padding-top: 2rem;
 }
-/* seccion de las canciones lista */
+
 .track__songsName{
     display: flex;
     align-items: center;
@@ -307,20 +295,19 @@ main{
     font-size: x-large;
 }
 .track__search input[type="text"]{
-    flex: 1; /* El campo de entrada ocupará el espacio disponible */
+    flex: 1; 
     border: none;
-    /* Sin borde */
-    background-color:transparent; /* Fondo transparente */
-    color: #fff; /* Color de texto */
-    font-size: 18px; /* Tamaño de fuente */
-    outline: none; /* Sin contorno al enfocar */
+    background-color:transparent; 
+    color: #fff; 
+    font-size: 18px; 
+    outline: none; 
 }
 .track__search button {
     padding: 10px 20px;
-    background-color:#242424; /* Color de fondo del botón */
-    color: #fff; /* Color de texto */
-    border: none; /* Sin borde */
-    border-radius: 0 50px 50px 0; /* Bordes redondeados a la derecha */
+    background-color:#242424; 
+    color: #fff; 
+    border: none; 
+    border-radius: 0 50px 50px 0; 
     cursor: pointer;
 }
 .track__search button:hover {
@@ -328,31 +315,20 @@ main{
     color: black;
     transition: 0.5s;
 }
-
-
-
-
 .track__songs{
     display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-  height: 75vh;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 75vh;
     gap: 1rem;
-     padding-left: 2rem;
-  
+    padding-left: 2rem;
 }
 .track__description{
     display: flex;
-    
-    
-
-    
-   
 }
 
 .track__description :nth-child(2){
     color:rgba(255, 255, 255, 0.479)
-
 }
 
 .track__time{
@@ -360,9 +336,6 @@ main{
     flex-direction: column;
    margin-left: 3rem;
    margin-right: 2em;
-
-  
-
 }
 .track__hora{
     font-size: small;
@@ -372,7 +345,6 @@ main{
     font-size: smaller;
 }
 .track__songsName{
-   
     border-radius: 1rem;
     transition: padding 0.3s ease;
     width: 98%;
@@ -385,10 +357,7 @@ main{
 .track__songsName img{
     width: 68px;
     border-radius: 0.8rem;
- 
 }
 img:hover{
     cursor: pointer;
-   
-
 }
