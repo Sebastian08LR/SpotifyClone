@@ -18,11 +18,14 @@
     <aside class="album">
         <header class= "discover">
             <h1>Discover<br> New Music</h1>
-            <div class = "album__search">
-                <i class='bxWeek'></i>
-                <input id="searchInput" type="text" placeholder="Search...">
-                <button id="searchButton" type="submit">Buscar</button>
-            </div>  
+            <div class="album__search">
+                <input id="searchInput" placeholder="Search" class="search-header__input" type="text" />
+                <button id="searchButton" class="search-header__button">
+                  <svg fill="none" viewBox="0 0 18 18" height="18" width="18" class="search-header__icon">
+                    <path fill="#3A3A3A" d="M7.132 0C3.197 0 0 3.124 0 6.97c0 3.844 3.197 6.969 7.132 6.969 1.557 0 2.995-.49 4.169-1.32L16.82 18 18 16.847l-5.454-5.342a6.846 6.846 0 0 0 1.718-4.536C14.264 3.124 11.067 0 7.132 0zm0 .82c3.48 0 6.293 2.748 6.293 6.15 0 3.4-2.813 6.149-6.293 6.149S.839 10.37.839 6.969C.839 3.568 3.651.82 7.132.82z"></path>
+                  </svg>
+                </button>
+            </div>   
         </header>
         <section class= "albumTopSection">
             <div class="albumTopSectionHeader" >
@@ -51,13 +54,7 @@
         <heading class="main__heading">
             <h3>Now playing</h3>
         </heading>
-        <my-frame class= "main__frame" uri="spotify:album:2zE9RJSh5sMV0NJ8Oc8k5s"></my-frame>
-        <div class= "album__mainSearch">
-            <i class='bx bx-search-alt-2'></i>
-                <input type="text" placeholder="Search...">
-                <button type="submit">Buscar</button>
-
-        </div>
+            <my-frame class= "main__frame" uri="spotify:album:3RQQmkQEvNCY4prGKE6oc5"></my-frame>
     </main>
 
    <!-- SECTION DERECHA TRACK -->
@@ -65,16 +62,20 @@
         <div class="track__heading">
             <h3>Track List</h3>
         </div>
-        <div class="track__search">
-            <i class='bx bx-search-alt-2'></i>
-        <input type="text" placeholder="Search...">
-        <button type="submit">Buscar</button>
+        <div class="album__search">
+            <input id="searchInput" placeholder="Search" class="search-header__input" type="text" />
+            <button id="searchButton" class="search-header__button">
+              <svg fill="none" viewBox="0 0 18 18" height="18" width="18" class="search-header__icon">
+                <path fill="#3A3A3A" d="M7.132 0C3.197 0 0 3.124 0 6.97c0 3.844 3.197 6.969 7.132 6.969 1.557 0 2.995-.49 4.169-1.32L16.82 18 18 16.847l-5.454-5.342a6.846 6.846 0 0 0 1.718-4.536C14.264 3.124 11.067 0 7.132 0zm0 .82c3.48 0 6.293 2.748 6.293 6.15 0 3.4-2.813 6.149-6.293 6.149S.839 10.37.839 6.969C.839 3.568 3.651.82 7.132.82z"></path>
+              </svg>
+            </button>
+        </div>   
     </div>
     <div class="track__playingNext">
         <h5>Playing next</h5>
     </div>
         <div class= "track__songs">
-                <album-tracks class="trackList" uri="spotify:album:2zE9RJSh5sMV0NJ8Oc8k5s"></album-tracks>
+                <album-tracks class="trackList" uri="spotify:album:3RQQmkQEvNCY4prGKE6oc5"></album-tracks>
         </div>
     </section>
 </body>

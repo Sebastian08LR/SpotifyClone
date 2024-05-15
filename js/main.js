@@ -15,9 +15,16 @@ class myframe extends HTMLElement {
             // Obtener el ID del álbum de la URI
             const id = uri.split(':')[2];
             const typeOf = uri.split(':')[1];
-            this.shadowRoot.innerHTML = `
-                <iframe class="spotify-iframe" width="450" height="670" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            `;
+            if(typeOf == "album"){
+                this.shadowRoot.innerHTML = `
+                    <iframe class="spotify-iframe" width="450" height="670" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                `;
+            }
+            else if(typeOf == "track"){
+                this.shadowRoot.innerHTML = `
+                    <iframe class="spotify-iframe" width="220" height="400" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                `;
+            }
         } else {
             this.shadowRoot.innerHTML = '';
         }
@@ -88,7 +95,7 @@ class AlbumGallery extends HTMLElement {
         };
 
         // Llama a la función loadAlbums con el término de búsqueda predeterminado
-        loadAlbums('Sol%20maria');
+        loadAlbums('Bad%20Bunny');
 
         // Agregar evento al botón de búsqueda
         const searchButton = document.getElementById('searchButton');
