@@ -104,6 +104,7 @@ body{
 }
 .albumGallery img:hover{
     width: 50%;
+    transition: 0.5s;
 }
 .albumGallery :nth-child(3){
     color: rgba(255, 255, 255, 0.521)
@@ -211,6 +212,7 @@ main{
     background-color: var(--color2);
     border-radius: 1rem;
     margin: 0.5rem 0;
+    position: relative;
     height: 98svh;
     justify-content: space-between;
 }
@@ -221,6 +223,12 @@ main{
     align-items: center;
     font-size: 2.5svh;
     margin-top: 2svh;
+}
+#changeThemeButton{
+    position: absolute;
+    right: 1.5em;
+    top: 1.5em;
+
 }
 .album__mainSearch{
     display: flex;
@@ -276,8 +284,11 @@ main{
 
 .track__songsName{
     display: flex;
-    align-items: center;
-    gap: 1rem;  
+    align-items: center; 
+    border-radius: 1rem;
+    transition: padding 0.3s ease;
+    width: 98%;
+    margin-bottom: 0.8em; 
 }
 .track__playingNext{
     padding-left: 2rem;
@@ -325,6 +336,9 @@ main{
 }
 .track__description{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0.5vw;
 }
 
 .track__description :nth-child(2){
@@ -333,9 +347,11 @@ main{
 
 .track__time{
     display: flex;
+    text-wrap: nowrap;
+    justify-content: center;
     flex-direction: column;
-   margin-left: 3rem;
-   margin-right: 2em;
+    margin-left: 3rem;
+    margin-right: 2em;
 }
 .track__hora{
     font-size: small;
@@ -344,20 +360,26 @@ main{
     align-self: center;
     font-size: smaller;
 }
-.track__songsName{
-    border-radius: 1rem;
-    transition: padding 0.3s ease;
-    width: 98%;
-}
+
 .track__songsName:hover{
     background-color: #242424;
     padding: 0.4rem;
     cursor: pointer;
 }
 .track__songsName img{
-    width: 68px;
+    width: 60px;
+    margin-left: 0.5vw;
     border-radius: 0.8rem;
 }
 img:hover{
     cursor: pointer;
+}
+
+.track__songsName {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.track__songsName.active {
+    opacity: 1;
 }
