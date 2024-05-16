@@ -452,14 +452,17 @@ img:hover{
     .discover{
         width: 95vw;
         height: 20vh;
+        margin-bottom: 1svh;
     }
     .albumTopSection{
         width: 95vw;
         height: 55vh;
+        margin-bottom: 1svh;
     }
     .mayLikeSection{
         width: 95vw;
-        height: 20vh;
+        height: 21vh;
+        margin-bottom: 1svh;
     }
     .album__discover h1{
     font-size: 3rem;
@@ -605,31 +608,16 @@ img:hover{
     .track{
         padding-bottom: 1rem;
     }
-    .track__search{
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-        padding-left: 2rem;
-        width: 90vw;  
+    .track__description{
+        font-size: 0.9em;
+        margin-left: 1em;
     }
-    
-    .track__search i{
-        font-size: x-large;
-        color:var(--color5)
-    }
-    .track__search input[type="text"]{
-        font-size: 0.8rem; 
-    }
-    .track__search button {
-        padding: 0.5rem  0.8rem;
-     
-    }
-    .track__search button:hover {
-        border: 1px solid var(--color5);
+    .track__songs{
+        height: 67vh;
     }
     .mobileMenu{
         position: fixed;
-        bottom: 2svh;
+        bottom: 1.5svh;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
