@@ -15,14 +15,19 @@ class myframe extends HTMLElement {
             // Obtener el ID del álbum de la URI
             const id = uri.split(':')[2];
             const typeOf = uri.split(':')[1];
-            if(typeOf == "album"){
+            if(typeOf == "album" && window.innerWidth <= 800){
                 this.shadowRoot.innerHTML = `
-                    <iframe class="spotify-iframe" width="450" height="670" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="spotify-iframe" width="100%" height="90%" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                `;
+            }
+            else if(typeOf == "album"){
+                this.shadowRoot.innerHTML = `
+                    <iframe class="spotify-iframe" width="100%" height="670" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 `;
             }
             else if(typeOf == "track"){
                 this.shadowRoot.innerHTML = `
-                    <iframe class="spotify-iframe" width="220" height="400" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="spotify-iframe" width="100%" height="400" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 `;
             }
         } else {
@@ -56,7 +61,7 @@ class AlbumGallery extends HTMLElement {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'd18f7dfa3emsh3161fe6d397feecp16c3d0jsn809f44b27c03',
+                    'X-RapidAPI-Key': '157dd91ab6mshc69413ddcfde592p1a000ejsnb77fb9a8c2a8',
                     'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };  
@@ -132,7 +137,7 @@ class MayLikeSection extends HTMLElement {
         const options = {
         method: 'GET',
             headers: {
-                'X-RapidAPI-Key': 'd18f7dfa3emsh3161fe6d397feecp16c3d0jsn809f44b27c03',
+                'X-RapidAPI-Key': '157dd91ab6mshc69413ddcfde592p1a000ejsnb77fb9a8c2a8',
                 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         }; 
@@ -198,7 +203,7 @@ class AlbumTracksComponent extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': 'd18f7dfa3emsh3161fe6d397feecp16c3d0jsn809f44b27c03',
+                'X-RapidAPI-Key': '157dd91ab6mshc69413ddcfde592p1a000ejsnb77fb9a8c2a8',
                 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
@@ -223,7 +228,7 @@ class AlbumTracksComponent extends HTMLElement {
                         <div class="track__description">
                             <div>
                                 <h4>${track.name}</h4>
-                                <p>${track.artists[0].name}</p>
+                                <p class="artist__name">${track.artists[0].name}</p>
                             </div>
                             <div class="track__time">
                                 <p class="track__año">${album.release_date}</p>

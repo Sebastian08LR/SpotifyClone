@@ -40,7 +40,6 @@ body{
     gap: 0.7rem;
     padding: 0.5rem;
     width: 100%;
-    justify-content: space-around;
 }
 
 .discover{
@@ -182,8 +181,10 @@ body{
 .main__frame{
     display: flex;
     align-items: center;
+    position: relative;
     height: 85svh;
     margin-bottom: 3svh;
+    width: 95%;
 }
 /* you may like this section  */
 .mayLikeSection{
@@ -318,6 +319,8 @@ main{
     transition: padding 0.3s ease;
     width: 98%;
     margin-bottom: 0.8em; 
+}
+.artist__name{
     text-wrap: nowrap;
 }
 .track__playingNext{
@@ -412,4 +415,240 @@ img:hover{
 
 .track__songsName.active {
     opacity: 1;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow-y: scroll;
+    }
+    .mainColumn, .track{
+        display: none;
+    }
+    .album{
+        height: 100svh;
+    }
+    #firstColumn{
+        display: block;
+    }
+    .search-header__input{
+        width: 80vw;
+    }
+    .album__search{
+        margin-top: 1svh;
+    }
+    .album__search i{
+        font-size: medium;
+    }
+    .album__search input[type="text"]{
+        font-size: 0.8rem;
+    }
+    .discover{
+        width: 95vw;
+        height: 20vh;
+    }
+    .albumTopSection{
+        width: 95vw;
+        height: 55vh;
+    }
+    .mayLikeSection{
+        width: 95vw;
+        height: 20vh;
+    }
+    .album__discover h1{
+    font-size: 3rem;
+    }
+    .album__search button:hover {
+        border: 1px solid #1ed760; 
+    }
+    .album__discover :nth-child(1){
+        color: var(--color5);
+    }
+    .album__songs img{
+        width: 150px;
+        transition: width 0.3s ease;
+        border-radius: 1rem;
+    }
+    .album__top{
+     gap: 0;
+       padding-top: 2rem;
+       border-radius: 1rem;
+    }
+    .album__songs img:hover{
+        width: 145px;
+    }
+    .album__gallery{
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow-x: scroll; 
+        height: 89vw;
+    }
+    .album__subtitle{
+        display: flex;
+        flex-direction: row;
+        padding-left: 0rem;
+        padding-right:0rem;
+        font-size:1.5rem;
+        justify-content: space-between;
+    }
+    .album__week{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+   /* SECTION DE YOU MAY LIKE THIS*/
+    .album__mayLike{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        gap: 1em;
+        background-color: var(--color2);
+        border-radius: 1rem;
+        color: var(--color3)
+    }
+    .album__mayLikeName :nth-child(2){
+        color:rgba(255, 255, 255, 0.479)
+    }
+    .album__mayLikeTitle{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        
+    }
+    .album__mayLikeSongs img{
+        width: 70px;
+        border-radius: 1rem;
+    }
+    .album__mayLikeSongs{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        padding: 0.7rem;
+        width: 97%;
+        border-radius: 1rem;
+    }
+    .album__mayLikeSongs:hover{
+        
+            background-color: #242424;
+    }
+    .album__mayLikeGallery{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+        height: 20vh;
+        
+        margin-bottom: 1rem;
+        overflow-y: scroll; 
+    }
+    .album__mayLikeSongs {
+        font-size: 0.8rem;
+    }
+    .album__mayLikeSongs :nth-child(3){
+        margin-left: 3rem;
+        font-size: smaller;
+    }
+    main{
+        display: flex;
+        margin-left: 0.5rem;
+        width: 95vw;
+        gap:0rem;
+        padding: 1rem;
+    }
+    .main__heading{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+    }
+    .frame__box{
+        
+        display:  flex;
+        width: 100vw;
+        height: 560px;
+        padding: 0rem;
+        
+    }
+    .album__mainSearch{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        padding-bottom: 1.5rem;
+        width: 80vw;
+    }
+    .album__mainSearch i{
+      
+        color:var(--color5);
+    }
+    .album__mainSearch input[type="text"]{
+        font-size: 0.8rem;  /* Tamaño de fuente */
+      
+    }
+    .album__mainSearch Button{
+        padding: 0.5rem  0.8rem;
+    }
+  
+    .album__mainSearch button:hover {
+        border: 1px solid var(--color5); 
+    }
+    .track{
+        padding-bottom: 1rem;
+    }
+    .track__search{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        padding-left: 2rem;
+        width: 90vw;  
+    }
+    
+    .track__search i{
+        font-size: x-large;
+        color:var(--color5)
+    }
+    .track__search input[type="text"]{
+        font-size: 0.8rem; 
+    }
+    .track__search button {
+        padding: 0.5rem  0.8rem;
+     
+    }
+    .track__search button:hover {
+        border: 1px solid var(--color5);
+    }
+    .mobileMenu{
+        position: fixed;
+        bottom: 2svh;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: space-around;
+        width: 60vw;
+        background-color: var(--color6);
+        padding: 0.8em;
+        border-radius: 2rem;
+        z-index: 999;
+
+    }
+    .mobileMenu button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobileMenu i{
+        font-size: 2rem;
+        background: transparent;
+        color: var(--color5);
+    }    
 }

@@ -11,11 +11,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
  
     <script src="./js/main.js" type="module" defer></script>
+    <script src="./js/mobileMenu.js"></script>
     <title>Proyecto Js</title>
 </head>
 <body>
     <!-- SECTION ALBUM IZQUIERDA PRIMERA COLUMNA -->
-    <aside class="album">
+    <aside class="album" id="firstColumn">
         <header class= "discover">
             <h1>Discover<br> New Music</h1>
             <div class="album__search">
@@ -50,7 +51,7 @@
     </aside>
 
     <!-- SECTION CENTRAL IFRAME SPOTIFY -->
-    <main>
+    <main class="mainColumn" id="secondColumn">
         <heading class="main__heading">
             <h3>Now playing</h3>
         </heading>
@@ -58,7 +59,7 @@
     </main>
 
    <!-- SECTION DERECHA TRACK -->
-    <section class="track">
+    <section class="track" id="thirdColumn">
         <div class="track__heading">
             <h3>Track List</h3>
         </div>
@@ -70,14 +71,28 @@
               </svg>
             </button>
         </div>   
-    </div>
-    <div class="track__playingNext">
-        <h5>Playing next</h5>
-    </div>
+        <div class="track__playingNext">
+            <h5>Playing next</h5>
+        </div>
         <div class= "track__songs">
                 <album-tracks class="trackList" uri="spotify:album:3RQQmkQEvNCY4prGKE6oc5"></album-tracks>
         </div>
     </section>
+    
+    <footer class="mobileMenu">
+        <button onclick="showSelectedColumn('first')">
+            <i id="albumIcon" class='bx bx-album' ></i>
+        </button>
+        <button onclick="showSelectedColumn('second')">
+            <i id="homeIcon" class='bx bx-home-alt'></i>
+
+        </button>
+        <button onclick="showSelectedColumn('third')">
+            <i id="menuIcon" class='bx bx-menu' ></i>
+
+        </button>
+
+    </footer>
 </body>
 </html> 
 
