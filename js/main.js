@@ -61,7 +61,7 @@ class AlbumGallery extends HTMLElement {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '157dd91ab6mshc69413ddcfde592p1a000ejsnb77fb9a8c2a8',
+                    'X-RapidAPI-Key': 'aa5c24bc0fmsh57bb53b3907728dp116f46jsn54b471f1c938',
                     'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };  
@@ -75,10 +75,11 @@ class AlbumGallery extends HTMLElement {
                         // First URL from "sources"
                         const primeraUrl = result.albums.items[i].data.coverArt.sources[0].url;
                         const uri = result.albums.items[i].data.uri;
+                        const albumName = result.albums.items[i].data.name;
                         // Extract ID from URI
                         const id = uri.split(':')[2];
                         templates += `
-                            <img id="album__${i + 1}" src="${primeraUrl}" alt="" data-id="${id}">
+                            <img id="album__${i + 1}" src="${primeraUrl}" alt="" data-id="${id}" data-name="${albumName}" ">
                         `;
                     }
                 }
@@ -92,6 +93,11 @@ class AlbumGallery extends HTMLElement {
                         myFrame.setAttribute('uri', `spotify:album:${id}`);
                         const AlbumTracksComponent = document.querySelector('.trackList');
                         AlbumTracksComponent.setAttribute('uri', `spotify:album:${id}`);
+                        const MobileMusicReproducer = document.querySelector('.mobileReproducer')
+                        const imgUrl = img.getAttribute('src')
+                        const albumName = img.getAttribute('data-name');
+                        MobileMusicReproducer.setAttribute('url', `${imgUrl}`);
+                        MobileMusicReproducer.setAttribute('name', `${albumName}`);
                     });
                 });
             } catch (error) {
@@ -137,7 +143,7 @@ class MayLikeSection extends HTMLElement {
         const options = {
         method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '157dd91ab6mshc69413ddcfde592p1a000ejsnb77fb9a8c2a8',
+                'X-RapidAPI-Key': 'aa5c24bc0fmsh57bb53b3907728dp116f46jsn54b471f1c938',
                 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         }; 
@@ -203,7 +209,7 @@ class AlbumTracksComponent extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '157dd91ab6mshc69413ddcfde592p1a000ejsnb77fb9a8c2a8',
+                'X-RapidAPI-Key': 'aa5c24bc0fmsh57bb53b3907728dp116f46jsn54b471f1c938',
                 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
@@ -222,10 +228,10 @@ class AlbumTracksComponent extends HTMLElement {
             let templates = '';
             album.tracks.items.forEach(track => {
                 templates += `
-                    <div class="track__songsName">
+                    <div class="trackSongsName">
                         <i class='bx bx-menu'></i>
                         <img src="${imageUrl}" alt="" data-id="${track.uri}">
-                        <div class="track__description">
+                        <div class="trackDescription">
                             <div>
                                 <h4>${track.name}</h4>
                                 <p class="artist__name">${track.artists[0].name}</p>
@@ -240,7 +246,7 @@ class AlbumTracksComponent extends HTMLElement {
             this.innerHTML = templates;
 
             setTimeout(() => {
-                this.querySelectorAll('.track__songsName').forEach(track => {
+                this.querySelectorAll('.trackSongsName').forEach(track => {
                     track.classList.add('active');
                 });
             }, 100);
@@ -273,3 +279,47 @@ customElements.define('album-tracks', AlbumTracksComponent);
 
 
 
+
+
+class MobileMusicReproducer extends HTMLElement {
+    constructor() {
+        super();
+    }
+    connectedCallback() {
+        this.renderFrame();
+    }
+    renderFrame(){
+        const url = this.getAttribute('url');
+        const albumName = this.getAttribute('name');
+        if(url && albumName){
+            try {
+                let templates = ''
+                if(window.innerWidth <=800){
+                    templates += `
+                        <img class="flotingReproducer" src="${url}" alt="" ">
+                        <p><marquee class="albumName" behavior="" direction="" scrollamount="5">${albumName}</marquee></p>
+                        <div class="loader">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    `;
+                }
+                this.innerHTML = templates;
+                }    
+            catch (error) {
+                    console.error(error);
+            }
+        }
+    }
+    static get observedAttributes() {
+        return ["url", "name"];
+    }
+
+    attributeChangedCallback(name, oldVal, newVal) {
+        if ((name === 'url' || name === 'name') && oldVal !== newVal) {
+            this.renderFrame();
+        }
+    }
+}
+customElements.define('mobile-reproducer', MobileMusicReproducer);

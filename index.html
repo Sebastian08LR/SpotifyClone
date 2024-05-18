@@ -15,10 +15,11 @@
     <title>Proyecto Js</title>
 </head>
 <body>
+    <mobile-reproducer id="reproducer" class="mobileReproducer" url="https://i.scdn.co/image/ab67616d00001e0249d694203245f241a1bcaa72" name="Un Verano Sin Ti"></mobile-reproducer>
     <!-- SECTION ALBUM IZQUIERDA PRIMERA COLUMNA -->
     <aside class="album" id="firstColumn">
         <header class= "discover">
-            <h1>Discover<br> New Music</h1>
+            <h1>Discover<br>New Music</h1>
             <div class="album__search">
                 <input id="searchInput" placeholder="Search" class="search-header__input" type="text" />
                 <button id="searchButton" class="search-header__button">
@@ -32,7 +33,7 @@
             <div class="albumTopSectionHeader" >
                 <p>Top-chart</p>
                 <div class="albumWeek">
-                    <h6>week</h6>
+                    <h6>Albums</h6>
                     <i class='bx bx-chevron-down'></i>
                 </div>    
             </div>
@@ -42,7 +43,7 @@
         </section>
         <section class= "mayLikeSection">
             <div class="mayLikeTitle" >
-                <h3>You may like this</h3>
+                <h3>You may like</h3>
             </div>
             <div class= "mayLikeGallery">
                 <may-like></may-like>
@@ -52,7 +53,7 @@
 
     <!-- SECTION CENTRAL IFRAME SPOTIFY -->
     <main class="mainColumn" id="secondColumn">
-        <heading class="main__heading">
+        <heading class="mainHeader">
             <h3>Now playing</h3>
         </heading>
             <my-frame class= "main__frame" uri="spotify:album:3RQQmkQEvNCY4prGKE6oc5"></my-frame>
@@ -60,21 +61,23 @@
 
    <!-- SECTION DERECHA TRACK -->
     <section class="track" id="thirdColumn">
-        <div class="track__heading">
-            <h3>Track List</h3>
+        <div class="trackHeader">
+            <div class="track__heading">
+                <h3>Track List</h3>
+            </div>
+            <div class="album__search">
+                <input id="searchInput" placeholder="Search" class="search-header__input" type="text" />
+                <button id="searchButton" class="search-header__button">
+                <svg fill="none" viewBox="0 0 18 18" height="18" width="18" class="search-header__icon">
+                    <path fill="#3A3A3A" d="M7.132 0C3.197 0 0 3.124 0 6.97c0 3.844 3.197 6.969 7.132 6.969 1.557 0 2.995-.49 4.169-1.32L16.82 18 18 16.847l-5.454-5.342a6.846 6.846 0 0 0 1.718-4.536C14.264 3.124 11.067 0 7.132 0zm0 .82c3.48 0 6.293 2.748 6.293 6.15 0 3.4-2.813 6.149-6.293 6.149S.839 10.37.839 6.969C.839 3.568 3.651.82 7.132.82z"></path>
+                </svg>
+                </button>
+            </div> 
         </div>
-        <div class="album__search">
-            <input id="searchInput" placeholder="Search" class="search-header__input" type="text" />
-            <button id="searchButton" class="search-header__button">
-              <svg fill="none" viewBox="0 0 18 18" height="18" width="18" class="search-header__icon">
-                <path fill="#3A3A3A" d="M7.132 0C3.197 0 0 3.124 0 6.97c0 3.844 3.197 6.969 7.132 6.969 1.557 0 2.995-.49 4.169-1.32L16.82 18 18 16.847l-5.454-5.342a6.846 6.846 0 0 0 1.718-4.536C14.264 3.124 11.067 0 7.132 0zm0 .82c3.48 0 6.293 2.748 6.293 6.15 0 3.4-2.813 6.149-6.293 6.149S.839 10.37.839 6.969C.839 3.568 3.651.82 7.132.82z"></path>
-              </svg>
-            </button>
-        </div>   
-        <div class="track__playingNext">
+        <div class="playingNext">
             <h5>Playing next</h5>
         </div>
-        <div class= "track__songs">
+        <div class= "trackSongs">
                 <album-tracks class="trackList" uri="spotify:album:3RQQmkQEvNCY4prGKE6oc5"></album-tracks>
         </div>
     </section>
@@ -84,14 +87,11 @@
             <i id="albumIcon" class='bx bx-album' ></i>
         </button>
         <button onclick="showSelectedColumn('second')">
-            <i id="homeIcon" class='bx bx-home-alt'></i>
-
+            <i class='bx bxl-deezer'></i>
         </button>
         <button onclick="showSelectedColumn('third')">
-            <i id="menuIcon" class='bx bx-menu' ></i>
-
+            <i class='bx bxs-playlist'></i>
         </button>
-
     </footer>
 </body>
 </html> 
