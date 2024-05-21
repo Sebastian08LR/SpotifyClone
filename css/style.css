@@ -291,7 +291,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 21svh;
+    height: 10svh;
     padding: 1rem;
 }
 .track{
@@ -307,7 +307,7 @@ main{
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-    height: 67vh;
+    height: 75vh;
     gap: 1rem;
     padding-left: 1rem;
 }

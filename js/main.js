@@ -14,20 +14,20 @@ class myframe extends HTMLElement {
         if (uri) {
             // Obtener el ID del álbum de la URI
             const id = uri.split(':')[2];
-            const typeOf = uri.split(':')[1];
-            if(typeOf == "album" && window.innerWidth <= 800){
+            const elementType = uri.split(':')[1];
+            if(elementType == "album" && window.innerWidth <= 800){
                 this.shadowRoot.innerHTML = `
-                    <iframe class="spotify-iframe" width="100%" height="90%" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="spotify-iframe" width="100%" height="90%" src="https://open.spotify.com/embed/${elementType}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 `;
             }
-            else if(typeOf == "album"){
+            else if(elementType == "album"){
                 this.shadowRoot.innerHTML = `
-                    <iframe class="spotify-iframe" width="100%" height="670" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="spotify-iframe" width="100%" height="670" src="https://open.spotify.com/embed/${elementType}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 `;
             }
-            else if(typeOf == "track"){
+            else if(elementType == "track"){
                 this.shadowRoot.innerHTML = `
-                    <iframe class="spotify-iframe" width="100%" height="400" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="spotify-iframe" width="100%" height="400" src="https://open.spotify.com/embed/${elementType}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 `;
             }
         } else {
@@ -139,7 +139,7 @@ class MayLikeSection extends HTMLElement {
     }
     
     async connectedCallback() {
-        const url = 'https://spotify23.p.rapidapi.com/search/?q=Sol%20maria&type=multi&offset=0&limit=10&numberOfTopResults=5';
+        const url = 'https://spotify23.p.rapidapi.com/search/?q=Bad%20Bunny&type=multi&offset=0&limit=10&numberOfTopResults=5';
         const options = {
         method: 'GET',
             headers: {
@@ -157,6 +157,7 @@ class MayLikeSection extends HTMLElement {
                 result.playlists.items.slice(0, 6).forEach(playlist => {
                     // First URL from  "sources"
                     const primeraUrl = playlist.data.images.items[0].sources[0].url;
+                    console.log(primeraUrl)
                     //  "name" and "description"
                     const nombre = playlist.data.name;
                     let descripcion = playlist.data.description;
@@ -187,7 +188,7 @@ class MayLikeSection extends HTMLElement {
 
 customElements.define('may-like', MayLikeSection);
 
-class AlbumTracksComponent extends HTMLElement {
+class TrackRenderComponent extends HTMLElement {
     constructor() {
         super();
     }
@@ -274,7 +275,7 @@ class AlbumTracksComponent extends HTMLElement {
     }
 }
 
-customElements.define('album-tracks', AlbumTracksComponent);
+customElements.define('album-tracks', TrackRenderComponent);
 
 
 
